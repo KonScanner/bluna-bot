@@ -15,7 +15,7 @@
     "prepublish": "yarn build"
   },
   "dependencies": {
-    "@terra-money/terra.js": "^1.8.4"
+    "@terra-money/terra.js": "^3.0.8"
   },
   "devDependencies": {
     "@types/node": "^15.12.4",

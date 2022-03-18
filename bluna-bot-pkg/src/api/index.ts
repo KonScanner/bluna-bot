@@ -102,7 +102,7 @@ export async function getWalletBalance(
     },
   };
 
-  const [{ balance: blunaBalance }, coins] = await Promise.all([
+  const [{ balance: blunaBalance }, [coins,pagination]] = await Promise.all([
     // bluna
     terra.wasm.contractQuery(
       BLUNA_CONTRACT_ADDRESS,
