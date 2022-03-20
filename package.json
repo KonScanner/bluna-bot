@@ -7,5 +7,18 @@
   "workspaces": [
     "bluna-bot-cli",
     "bluna-bot-pkg"
-  ]
+  ],
+  "description": "Automates swapping between LUNA and bLUNA in the Terra blockchain via [Terraswap](https://app.terraswap.io/#Swap).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KonScanner/bluna-bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KonScanner/bluna-bot/issues"
+  },
+  "homepage": "https://github.com/KonScanner/bluna-bot#readme"
 }

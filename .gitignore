@@ -1,3 +1,4 @@
+start_cli_tool.sh
 node_modules
 dist
 yarn.lock
